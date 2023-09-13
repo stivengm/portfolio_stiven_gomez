@@ -1,8 +1,20 @@
 .navbar {
-    display: flex;
+    height: 60px;
     background: #000000;
+
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-and-code {
+    display: flex;
+    align-items: center;
+}
+.name-and-code .name {
+    margin-left: 15px;
 }
 .codeLogo {
-    width: 100px;
+    width: 40px;
 }
 
