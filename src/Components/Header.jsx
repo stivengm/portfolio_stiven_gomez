@@ -9,10 +9,10 @@ export function Header() {
                 <span className='name'>Stiven Gomez</span>
             </div>
             <div className='options'>
-                <span>Inicio</span>
-                <span>Sobre mi</span>
-                <span>Proyectos</span>
-                <span>Contacto</span>
+                <span className='item'>Inicio</span>
+                <span className='item'>Sobre mi</span>
+                <span className='item'>Proyectos</span>
+                <span className='item'>Contacto</span>
             </div>
         </nav>
     );

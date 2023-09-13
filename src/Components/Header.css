@@ -17,4 +17,10 @@
 .codeLogo {
     width: 40px;
 }
-
+.options {
+    display: flex;
+    gap: 15px;
+}
+.options .item {
+    cursor: pointer;
+}
