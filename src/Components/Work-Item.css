@@ -1,0 +1,20 @@
+.item-work {
+    display: flex;
+    width: 350px;
+}
+.info-work {
+    margin-left: 20px;
+}
+.work-name {
+    font-size: 20px;
+    margin: 0;
+}
+.entity-work, .description-work {
+    margin: 0;
+    font-size: 15px;
+}
+.description-work {
+    border-top: 1px solid #353535;
+    padding-top: 10px;
+    margin-top: 10px;
+}
