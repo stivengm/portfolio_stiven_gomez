@@ -12,6 +12,9 @@
 .information-project {
     width: 100%;
     margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .name-project {
     font-size: 20px;
@@ -21,4 +24,9 @@
     padding: 4px 9px;
     border-radius: 9px;
     font-size: 11px;
+}
+.img-store {
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
 }
