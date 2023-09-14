@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Header } from './Components/Layout/Header';
+import { Footer } from './Components/Layout/Footer';
 import { Skills } from './Components/Skills/Skills';
 import { Projects } from './Components/Projects/Projects';
 import { Works } from './Components/Work/Works';
@@ -21,6 +22,7 @@ function App() {
         {/* <Projects /> */}
         <Works />
       </div>
+      <Footer />
       
     </>
   )
