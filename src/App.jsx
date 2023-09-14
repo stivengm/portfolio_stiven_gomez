@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Header } from './Components/Header';
 import { Skills } from './Components/Skills/Skills';
 import { Projects } from './Components/Projects';
-import { Works } from './Components/Works';
+import { Works } from './Components/Work/Works';
 import './App.css'
 import { version } from '../package.json';
 

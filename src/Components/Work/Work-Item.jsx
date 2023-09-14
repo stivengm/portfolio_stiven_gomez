@@ -1,5 +1,5 @@
 import './Work-Item.css';
-import flutter from '../assets/flutter_icon.svg';
+import flutter from '../../assets/flutter_icon.svg';
 
 export function WorkItem() {
     return (
