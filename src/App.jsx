@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import { Header } from './Components/Layout/Header';
 import { Footer } from './Components/Layout/Footer';
+import { ContactMe } from './Components/Contact/Contact';
 import { Skills } from './Components/Skills/Skills';
 import { Projects } from './Components/Projects/Projects';
 import { Works } from './Components/Work/Works';
@@ -36,6 +37,7 @@ function App() {
         <img className='icon-arrow-down' src={arrowDown} alt="arrowDown"/>
       </div>
       <div className="card">
+        <ContactMe />
         {/* <Projects /> */}
         <Works works={data.works} />
       </div>
