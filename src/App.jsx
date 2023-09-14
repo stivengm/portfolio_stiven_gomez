@@ -19,8 +19,8 @@ function App() {
 
       <div className="card">
         <Skills />
-        <img src={flutter} alt="Flutter" />
-        <Projects />
+        {/* <img src={flutter} alt="Flutter" /> */}
+        {/* <Projects /> */}
         <Works />
       </div>
       
