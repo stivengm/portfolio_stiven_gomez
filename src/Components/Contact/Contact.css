@@ -1,3 +1,18 @@
 .contact-me {
     padding: 80px 20%;
 }
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.item-contact {
+    border: 1px solid #353535;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .3s all;
+    cursor: pointer;
+}
+.item-contact:hover {
+    scale: 1.2;
+}

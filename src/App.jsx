@@ -37,7 +37,7 @@ function App() {
         <img className='icon-arrow-down' src={arrowDown} alt="arrowDown"/>
       </div>
       <div className="card">
-        <ContactMe />
+        <ContactMe contact={data.contact} />
         {/* <Projects /> */}
         <Works works={data.works} />
       </div>
