@@ -45,7 +45,7 @@ function App() {
               </div>
               <div className="card">
                 <ContactMe contact={data.contact} />
-                  {/* <Projects /> */}
+                  <Projects projects={data.projects} />
                   <Works works={data.works} />
               </div>
               <Footer />

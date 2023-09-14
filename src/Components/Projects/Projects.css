@@ -1,4 +1,24 @@
 .projects {
-    padding: 0 20%;
-    background-color: #000;
+    padding: 60px 20%;
+}
+.project-img {
+    width: 150px;
+    border-radius: 20px;
+}
+.project-item {
+    display: flex;
+    margin: 10px 0;
+}
+.information-project {
+    width: 100%;
+    margin-left: 25px;
+}
+.name-project {
+    font-size: 20px;
+}
+.personal-project {
+    background-color: #4d4d4d;
+    padding: 4px 9px;
+    border-radius: 9px;
+    font-size: 11px;
 }
