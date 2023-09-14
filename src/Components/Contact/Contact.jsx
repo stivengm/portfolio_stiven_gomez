@@ -1,9 +1,7 @@
 import './Contact.css';
 
 export function ContactMe({ contact = [] }) {
-
     var newContact = contact;
-    console.log(newContact);
     
     return(
         <div className='contact-me'>
