@@ -29,6 +29,7 @@ function App() {
       <Header name={data.name} />
       <div id='landing-page' className='landing-page' style={{ height: 'calc(' + window.innerHeight +'px - 60px)' }}>
         <div className='auto-biografia'>
+          <h1>{data.profession}</h1>
           <p>{data.description}</p>
         </div>
         <Skills skills={data.skills} />
