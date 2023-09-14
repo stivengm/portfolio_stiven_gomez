@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header name={data.name} />
       <div id='landing-page' className='landing-page' style={{ height: 'calc(' + window.innerHeight +'px - 60px)' }}>
         <div className='auto-biografia'>
           <p>{data.description}</p>
