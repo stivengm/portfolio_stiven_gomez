@@ -37,7 +37,7 @@ function App() {
       </div>
       <div className="card">
         {/* <Projects /> */}
-        <Works />
+        <Works works={data.works} />
       </div>
       <Footer />
       

@@ -1,15 +1,15 @@
 import './Work-Item.css';
 import flutter from '../../assets/flutter_icon.svg';
 
-export function WorkItem() {
+export function WorkItem({ workName, entityWork, timeWork, descriptionWork }) {
     return (
         <div className="item-work">
             <img src={flutter} alt="flutter_logo" />
             <div className='info-work'>
-                <strong className='work-name'>Senior Flutter Developer</strong>
-                <p className='entity-work'>SoyYo - Identidad digital</p>
-                <p className='time-work'>Jun. 2022 - ACTUALMENTE</p>
-                <p className='description-work'>Desarrollo de aplicaciones en Flutter - Dart, uso de Patron BLoC, creación e integración de SDK en WebPack.</p>
+                <strong className='work-name'>{ workName }</strong>
+                <p className='entity-work'>{ entityWork }</p>
+                <p className='time-work'>{ timeWork }</p>
+                <p className='description-work'>{ descriptionWork }</p>
             </div>
         </div>
     );
