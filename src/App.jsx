@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { Header } from './Components/Header';
+import { Projects } from './Components/Projects';
+import { Works } from './Components/Works';
 import './App.css'
 import { version } from '../package.json';
 
@@ -14,6 +16,8 @@ function App() {
       <div className="card">
         {version}
         <img src={flutter} alt="Flutter" />
+        <Projects />
+        <Works />
       </div>
       
     </>
