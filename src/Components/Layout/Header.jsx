@@ -8,12 +8,12 @@ export function Header() {
                 <img src={codeLogo} className='codeLogo' alt="codeLogo" />
                 <span className='name'>Stiven Gomez</span>
             </div>
-            <div className='options'>
+            {/* <div className='options'>
                 <span className='item'>Inicio</span>
                 <span className='item'>Sobre mi</span>
                 <span className='item'>Proyectos</span>
                 <span className='item'>Contacto</span>
-            </div>
+            </div> */}
         </nav>
     );
 }
