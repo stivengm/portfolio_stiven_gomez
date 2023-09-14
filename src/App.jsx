@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Header } from './Components/Layout/Header';
 import { Skills } from './Components/Skills/Skills';
-import { Projects } from './Components/Projects';
+import { Projects } from './Components/Projects/Projects';
 import { Works } from './Components/Work/Works';
 import './App.css'
 import { version } from '../package.json';
@@ -20,7 +20,7 @@ function App() {
       <div className="card">
         <Skills />
         {/* <img src={flutter} alt="Flutter" /> */}
-        {/* <Projects /> */}
+        <Projects />
         <Works />
       </div>
       
