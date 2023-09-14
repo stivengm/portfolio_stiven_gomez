@@ -11,7 +11,7 @@ export function ContactMe({ contact = [] }) {
                     newContact.map((social) => 
                     <div className='item-contact' key={social.id}>
                         <a href={social.url} target='_blank'>
-                            <img src={social.img_icon} alt={social.name} />
+                            <img className='img_logo_contact' src={social.img_icon} alt={social.name} />
                         </a>
                     </div>)
                 }
