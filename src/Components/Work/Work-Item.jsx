@@ -1,10 +1,10 @@
 import './Work-Item.css';
 import flutter from '../../assets/flutter_icon.svg';
 
-export function WorkItem({ workName, entityWork, timeWork, descriptionWork }) {
+export function WorkItem({ workName, entityWork, timeWork, descriptionWork, img }) {
     return (
         <div className="item-work">
-            <img src={flutter} alt="flutter_logo" />
+            <img className='img-work' src={img} alt="flutter_logo" />
             <div className='info-work'>
                 <strong className='work-name'>{ workName }</strong>
                 <p className='entity-work'>{ entityWork }</p>
