@@ -1,7 +1,12 @@
+import './Skills.css';
+
+import flutter from '../assets/flutter_icon.svg';
+
 export function Skills() {
     return(
-        <div>
-            Skills
+        <div className='skills'>
+            <img src={flutter} alt="flutter_logo" />
+            
         </div>
     );
 }
