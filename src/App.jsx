@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Header } from './Components/Header';
-import { Skills } from './Components/Skills';
+import { Skills } from './Components/Skills/Skills';
 import { Projects } from './Components/Projects';
 import { Works } from './Components/Works';
 import './App.css'
