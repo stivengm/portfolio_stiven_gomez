@@ -1,0 +1,16 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.skill-item {
+    border: 1px solid #353535;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.skill-item:hover {
+    scale: 1.2;
+}
