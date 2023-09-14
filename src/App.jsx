@@ -20,7 +20,7 @@ function App() {
       <div className="card">
         <Skills />
         {/* <img src={flutter} alt="Flutter" /> */}
-        <Projects />
+        {/* <Projects /> */}
         <Works />
       </div>
       
