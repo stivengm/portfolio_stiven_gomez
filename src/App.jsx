@@ -8,7 +8,6 @@ import { ContactMe } from './Components/Contact/Contact';
 import { Skills } from './Components/Skills/Skills';
 import { Projects } from './Components/Projects/Projects';
 import { Works } from './Components/Work/Works';
-import arrowDown from './assets/arrow_down_icon.svg';
 
 import './App.css';
 
@@ -35,17 +34,19 @@ function App() {
       {
         isLoading ? <Loader /> :
           <>
-            <Header name={data.name} /><div id='landing-page' className='landing-page' style={{ height: 'calc(' + window.innerHeight + 'px - 60px)' }}>
-              <div className='auto-biografia'>
-                <h1>{data.profession}</h1>
-                <p>{data.description}</p>
+            <Header name={data.name} logo={data.config.logo} />
+              <div id='landing-page' className='landing-page' style={{ height: 'calc(' + window.innerHeight + 'px - 60px)' }}>
+                <div className='auto-biografia'>
+                  <h1>{data.profession}</h1>
+                  <p>{data.description}</p>
+                </div>
+                <Skills skills={data.skills} />
+                <img className='icon-arrow-down' src={data.config.arrow_icon} alt="arrowDown" />
               </div>
-              <Skills skills={data.skills} />
-              <img className='icon-arrow-down' src={arrowDown} alt="arrowDown" />
-              </div><div className="card">
+              <div className="card">
                 <ContactMe contact={data.contact} />
-                {/* <Projects /> */}
-                <Works works={data.works} />
+                  {/* <Projects /> */}
+                  <Works works={data.works} />
               </div>
               <Footer />
           </>

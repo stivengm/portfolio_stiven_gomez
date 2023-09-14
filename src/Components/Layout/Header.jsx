@@ -1,11 +1,10 @@
-import codeLogo from '../../assets/coding.svg';
 import './Header.css';
 
-export function Header({ name }) {
+export function Header({ name, logo }) {
     return(
         <nav className='navbar'>
             <div className='name-and-code'>
-                <img src={codeLogo} className='codeLogo' alt="codeLogo" />
+                <img src={logo} className='codeLogo' alt="codeLogo" />
                 <span className='name'>{ name }</span>
             </div>
             {/* <div className='options'>
