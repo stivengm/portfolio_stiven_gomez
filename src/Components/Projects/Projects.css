@@ -8,6 +8,7 @@
 .project-item {
     display: flex;
     margin: 15px 0;
+    transition: .5s all;
 }
 .information-project {
     width: 100%;
@@ -42,4 +43,8 @@
 .project-item + .project-item {
     border-top: 1px solid #4d4d4d;
     padding-top: 15px;
+}
+
+.project-item:hover {
+    scale: 1.01;
 }
