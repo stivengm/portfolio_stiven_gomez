@@ -3,6 +3,6 @@
 }
 .works-section {
     display: flex;
-    gap: 10px;
+    gap: 25px 10px;
     flex-wrap: wrap;
 }
