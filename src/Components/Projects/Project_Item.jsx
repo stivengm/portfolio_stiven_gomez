@@ -1,6 +1,6 @@
 import './Projects.css';
 
-export function ProjectItem({ name, img, description, personalProject, stors = [] }) {
+export function ProjectItem({ name, img, description, personalProject, stors = [], entities= [] }) {
     return(
         <div className='project-item'>
             <div className='img-project'>
@@ -10,7 +10,17 @@ export function ProjectItem({ name, img, description, personalProject, stors = [
                 <div className='info-project'>
                     <strong className='name-project'>{name}</strong>
                     <div>
-                        <span className='personal-project'>{ personalProject ? 'Proyecto personal' : '' }</span>
+                        {
+                            personalProject ? 
+                            <span className='personal-project'>Proyecto personal</span> :
+                            <div className='entities-work'>
+                                {
+                                    entities.map((entity) => <img className='img-entity-work' src={entity.img} alt="" />)
+                                }
+                            </div>
+                        }
+                        <img src="" alt="" />
+                        
                     </div>
                     <p>{description}</p>
                 </div>

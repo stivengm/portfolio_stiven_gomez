@@ -22,7 +22,7 @@ export function Projects({ projects = [] }) {
                 <>
                     <h1>Proyectos móviles</h1>
                     {
-                        mobile.map((project) => <ProjectItem key={project.id} name={project.name} img={project.img} description={project.description} personalProject={project.personalProject} stors={project.stors} />)
+                        mobile.map((project) => <ProjectItem key={project.id} name={project.name} img={project.img} description={project.description} personalProject={project.personalProject} stors={project.stors} entities={project.entities} />)
                     }
                 
                 </> : <section></section>
