@@ -9,12 +9,6 @@ export function Projects({ projects = [] }) {
     mobile = newProjects[0].projects;
     web = newProjects[1].projects;
 
-    // var mobile = newProjects[0].projects;
-    // var web = newProjects[1].projects;
-
-    console.log(mobile);
-    console.log(web);
-
     return(
         <div className="projects">
             {
