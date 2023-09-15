@@ -7,7 +7,7 @@
 }
 .project-item {
     display: flex;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 .information-project {
     width: 100%;
@@ -37,4 +37,8 @@
 .entities-work {
     display: flex;
     gap: 5px;
+}
+.project-item + .project-item {
+    border-top: 1px solid #4d4d4d;
+    padding-top: 15px;
 }

@@ -15,12 +15,10 @@ export function ProjectItem({ name, img, description, personalProject, stors = [
                             <span className='personal-project'>Proyecto personal</span> :
                             <div className='entities-work'>
                                 {
-                                    entities.map((entity) => <img className='img-entity-work' src={entity.img} alt="" />)
+                                    entities.map((entity) => <img key={entity.id} className='img-entity-work' src={entity.img} alt="" />)
                                 }
                             </div>
                         }
-                        <img src="" alt="" />
-                        
                     </div>
                     <p>{description}</p>
                 </div>
@@ -28,10 +26,10 @@ export function ProjectItem({ name, img, description, personalProject, stors = [
                     stors ? 
                     <div className='stores-projects'>
                         {
-                            stors[0].publish ? <img className='img-store' src={stors[0].img_store} alt={name} /> : <secion></secion>
+                            stors[0].publish ? <img className='img-store' src={stors[0].img_store} alt={name} /> : <section></section>
                         }
                         {
-                            stors[1].publish ? <img className='img-store' src={stors[1].img_store} alt={name} /> : <secion></secion>
+                            stors[1].publish ? <img className='img-store' src={stors[1].img_store} alt={name} /> : <section></section>
                         }
                     </div> :
                     <section></section>
