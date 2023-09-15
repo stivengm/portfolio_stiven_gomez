@@ -1,5 +1,8 @@
 .projects {
     padding: 60px 20%;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
 }
 .img-project {
     height: 150px;
