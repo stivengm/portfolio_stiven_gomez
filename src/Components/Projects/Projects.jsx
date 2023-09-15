@@ -25,6 +25,9 @@ export function Projects({ projects = [] }) {
                 web != undefined ? 
                 <>
                     <h1>Proyectos web</h1>
+                    {
+                        web.map((project) => <ProjectItem key={project.id} name={project.name} img={project.img} description={project.description} personalProject={project.personalProject} isWeb={true} />)
+                    }
 
                 
                 </> : <section></section>

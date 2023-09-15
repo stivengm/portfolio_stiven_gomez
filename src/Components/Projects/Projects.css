@@ -1,8 +1,12 @@
 .projects {
     padding: 60px 20%;
 }
+.img-project {
+    height: 150px;
+}
 .project-img {
     width: 150px;
+    height: 150px;
     border-radius: 20px;
 }
 .project-item {
@@ -44,7 +48,13 @@
     border-top: 1px solid #4d4d4d;
     padding-top: 15px;
 }
-
+.isWeb {
+    cursor: pointer;
+    border-radius: 20px;
+}
+.isWeb:hover {
+    background-color: #2e2e2e;
+}
 .project-item:hover {
     scale: 1.01;
 }

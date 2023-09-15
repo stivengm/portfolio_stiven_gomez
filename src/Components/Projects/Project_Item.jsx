@@ -1,8 +1,9 @@
 import './Projects.css';
 
-export function ProjectItem({ name, img, description, personalProject, stors = [], entities= [] }) {
+export function ProjectItem({ name, img, description, personalProject, stors = [], entities= [], isWeb = false }) {
+    var classNameSection = isWeb ? 'project-item isWeb' : 'project-item';
     return(
-        <div className='project-item'>
+        <div className={classNameSection}> 
             <div className='img-project'>
                 <img className='project-img' src={img} alt={name} />
             </div>
@@ -23,7 +24,7 @@ export function ProjectItem({ name, img, description, personalProject, stors = [
                     <p>{description}</p>
                 </div>
                 {
-                    stors ? 
+                    stors.length > 1 ? 
                     <div className='stores-projects'>
                         {
                             stors[0].publish ? <a href={stors[0].url} target='_blank'><img className='img-store' src={stors[0].img_store} alt={name} /></a> : <section></section>
