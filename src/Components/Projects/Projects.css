@@ -28,6 +28,8 @@
     font-size: 20px;
 }
 .personal-project {
+    position: relative;
+    margin-top: 3px;
     background-color: #4d4d4d;
     padding: 4px 9px;
     border-radius: 9px;
