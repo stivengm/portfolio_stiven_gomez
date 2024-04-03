@@ -1,5 +1,5 @@
+import { ProjectItem } from './Project_item';
 import './Projects.css';
-import { ProjectItem } from './Project_item.jsx';
 
 export function Projects({ projects = [] }) {
 
