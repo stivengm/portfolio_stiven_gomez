@@ -1,4 +1,4 @@
-import { ProjectItem } from './Project_item';
+import { ProjectItem } from './Project-Item';
 import './Projects.css';
 
 export function Projects({ projects = [] }) {
