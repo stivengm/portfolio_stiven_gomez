@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --primaryColor: #8ED5FF;
+    --backgroundApp: 15, 20, 24; // #0F1418
+    --borders: 62, 72, 79; // #3E484F
+    --bordersGrays: #87929A;
+
+    --textColors: #BDC8D1;
+    --textSecondaryButton: #DEE3E8;
+    --textPrimaryButton: #00354A;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(var(--backgroundApp), 1);
+}
+
+.btn {
+    border-radius: 12px;
+    padding: 16px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.primaryButton {
+    background-color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    color: var(--textPrimaryButton);
+}
+
+.secondaryButton {
+    background-color: transparent;
+    border: 1px solid var(--bordersGrays);
+    color: var(--textSecondaryButton);
+}

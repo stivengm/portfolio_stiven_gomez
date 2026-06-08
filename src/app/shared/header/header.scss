@@ -1,0 +1,21 @@
+.content_header {
+    background-color: rgba(var(--backgroundApp), .7);
+    border-bottom: 1px solid rgba(var(--borders), .1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 5%;
+    .title_header {
+        margin: 0;
+    }
+    .section_menu {
+        display: flex;
+        gap: 32px;
+        .option {
+            color: var(--textColors);
+            font-size: 16px;
+        }
+    }
+}

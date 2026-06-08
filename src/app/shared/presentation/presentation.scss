@@ -1,0 +1,22 @@
+.content_presentation {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .section_presentation {
+        .available_text {
+            text-transform: uppercase;
+        }
+        h2 {
+
+        }
+        p {
+
+        }
+    }
+    .section_actions {
+        display: flex;
+        gap: 24px;
+    }
+}
