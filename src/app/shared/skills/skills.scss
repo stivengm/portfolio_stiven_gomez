@@ -1,0 +1,14 @@
+.content_skills {
+    display: flex;
+    flex-direction: column;
+
+    .section_stack {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+        .item_stack {
+            background-color: rgba(var(--backgroundContact), .4);
+            border-radius: 16px;
+        }
+    }
+}

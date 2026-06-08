@@ -5,6 +5,7 @@ import { Presentation } from '../../shared/presentation/presentation';
 import { Contact } from '../../shared/contact/contact';
 import { AboutMe } from '../../shared/about-me/about-me';
 import { Projects } from '../../shared/projects/projects';
+import { Skills } from '../../shared/skills/skills';
 
 @Component({
   selector: 'app-home',
@@ -12,6 +13,7 @@ import { Projects } from '../../shared/projects/projects';
     Header,
     Presentation,
     Projects,
+    Skills,
     AboutMe,
     Contact,
     Footer
