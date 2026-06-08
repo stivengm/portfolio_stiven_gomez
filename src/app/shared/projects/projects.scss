@@ -1,0 +1,21 @@
+.content_projects {
+    padding: 0 5%;
+    .section_header_projects {
+        .content_left {
+            .title_portfolio {
+                text-transform: uppercase;
+                color: rgba(var(--primaryColor), 1.0);
+            }
+            .title_projects {
+                color: var(--textSecondaryButton);
+                font-size: 48px;
+                font-weight: 700;
+            }
+        }
+    }
+    .items_project {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+    }
+}
