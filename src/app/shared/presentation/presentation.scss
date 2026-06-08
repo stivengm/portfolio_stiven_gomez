@@ -8,6 +8,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 24px;
         .available_text {
             background-color: rgba(var(--primaryColor), .05);
             border: 1px solid rgba(var(--primaryColor), .2);
@@ -23,14 +24,18 @@
             }
         }
         .title_position {
+            margin: 0;
             color: var(--textSecondaryButton);
             font-size: 64px;
             span {
                 color: rgba(var(--primaryColor), 1.0);
             }
         }
-        p {
-
+        .description_position {
+            width: 60%;
+            text-align: center;
+            color: var(--textColors);
+            font-size: 30px;
         }
     }
     .section_actions {
