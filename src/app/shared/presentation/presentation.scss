@@ -5,11 +5,29 @@
     justify-content: center;
     align-items: center;
     .section_presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .available_text {
+            background-color: rgba(var(--primaryColor), .05);
+            border: 1px solid rgba(var(--primaryColor), .2);
+            width: max-content;
             text-transform: uppercase;
+            color: rgba(var(--primaryColor), 1.0);
+            font-size: 12px;
+            font-weight: 600;
+            padding: 5px 20px;
+            border-radius: 9999px;
+            p {
+                margin: 0;
+            }
         }
-        h2 {
-
+        .title_position {
+            color: var(--textSecondaryButton);
+            font-size: 64px;
+            span {
+                color: rgba(var(--primaryColor), 1.0);
+            }
         }
         p {
 

@@ -1,0 +1,11 @@
+.content_footer {
+    height: 88px;
+    background-color: var(--backgroundFooter);
+
+    display: flex;
+    flex-direction: row;
+    
+    .section_social_media {
+        display: flex;
+    }
+}

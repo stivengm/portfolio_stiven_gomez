@@ -1,4 +1,8 @@
 .content_header {
+    position: fixed;
+    width: stretch;
+    backdrop-filter: blur(24px); /* Aplica el desenfoque a lo que está detrás */
+    -webkit-backdrop-filter: blur(24px);
     background-color: rgba(var(--backgroundApp), .7);
     border-bottom: 1px solid rgba(var(--borders), .1);
     display: flex;

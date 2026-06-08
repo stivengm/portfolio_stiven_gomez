@@ -1,10 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
-    --primaryColor: #8ED5FF;
+    --primaryColor: 142, 213, 255; // #8ED5FF;
     --backgroundApp: 15, 20, 24; // #0F1418
     --borders: 62, 72, 79; // #3E484F
     --bordersGrays: #87929A;
+    --backgroundFooter: #1B2024;
+    --backgroundContact: 30, 41, 59; // #1E293B
+
+    // COLORS
+    --whiteColor: 255, 255, 255; // #FFFFFF
 
     --textColors: #BDC8D1;
     --textSecondaryButton: #DEE3E8;
@@ -23,14 +28,18 @@ body {
     padding: 16px 20px;
     font-size: 18px;
     font-weight: 700;
+    transition: all 200ms;
+    cursor: pointer;
+    &:hover {
+        scale: 1.05;
+    }
 }
 
 .primaryButton {
-    background-color: var(--primaryColor);
-    border: 1px solid var(--primaryColor);
+    background-color: rgba(var(--primaryColor), 1.0);
+    border: 1px solid rgba(var(--primaryColor), 1.0);
     color: var(--textPrimaryButton);
 }
-
 .secondaryButton {
     background-color: transparent;
     border: 1px solid var(--bordersGrays);
