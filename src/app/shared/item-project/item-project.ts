@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './item-project.scss',
 })
 export class ItemProject {
+  @Input() imgProject = "";
   @Input() titleProject = "";
   @Input() descriptionProject = "";
 

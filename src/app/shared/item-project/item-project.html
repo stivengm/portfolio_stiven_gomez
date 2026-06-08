@@ -1,4 +1,8 @@
 <div class="item_project">
-    <h3>{{ titleProject }}</h3>
-    <a href="">Detalles del caso</a>
+    <img class="img_project" [src]="'assets/images/projects/' + imgProject + '.png'" alt="">
+    <div class="information_project">
+        <h3 class="title_project">{{ titleProject }}</h3>
+        <p class="description_project">{{ descriptionProject }}</p>
+        <a href="">Detalles del caso</a>
+    </div>
 </div>
