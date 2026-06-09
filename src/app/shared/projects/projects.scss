@@ -1,16 +1,31 @@
 .content_projects {
     padding: 0 5%;
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
     .section_header_projects {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         .content_left {
+            flex: 1;
             .title_portfolio {
                 text-transform: uppercase;
                 color: rgba(var(--primaryColor), 1.0);
             }
             .title_projects {
+                margin: 0;
                 color: var(--textSecondaryButton);
                 font-size: 48px;
                 font-weight: 700;
+            }
+        }
+        .text_right {
+            width: 35%;
+            p {
+                color: var(--textColors);
+                font-size: 16px;
             }
         }
     }
