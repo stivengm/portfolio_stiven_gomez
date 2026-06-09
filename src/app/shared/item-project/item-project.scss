@@ -25,7 +25,7 @@
         transition: all 0.6s cubic-bezier(.2,.8,.2,1);
     }
     .information_project {
-        padding: 10px 24px;
+        padding: 24px;
         .title_project {
             color: var(--textSecondaryButton);
             font-weight: 600;
@@ -34,6 +34,25 @@
         .description_project {
             font-size: 16px;
             color: var(--textColors);
+        }
+        .link_details {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: rgba(var(--primaryColor), 1.0);
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+
+            &::after {
+                content: "";
+                display: block;
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url(../../../assets/images/icons/arrow-right.svg);
+            }
         }
     }
 }
