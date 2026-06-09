@@ -1,5 +1,6 @@
 .content_projects {
-    padding: 0 5%;
+    // padding: 0 5%;
+    padding: 10px 5% 120px 5%;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -10,7 +11,11 @@
         align-items: center;
         .content_left {
             flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
             .title_portfolio {
+                margin: 0;
                 text-transform: uppercase;
                 color: rgba(var(--primaryColor), 1.0);
             }

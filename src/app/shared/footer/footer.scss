@@ -1,11 +1,26 @@
 .content_footer {
     height: 88px;
     background-color: var(--backgroundFooter);
-
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    .title_footer {
+        margin: 0;
+        color: var(--textSecondaryButton);
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .text_development {
+        color: var(--textColors);
+        font-size: 16px;
+    }
     .section_social_media {
         display: flex;
+        gap: 24px;
+        span {
+            color: var(--textColors);
+        }
     }
 }

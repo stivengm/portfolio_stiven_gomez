@@ -4,4 +4,23 @@
     padding: 120px 5%;
     gap: 48px;
     background-color: var(--backgroundSectionTrayectoria);
+    .header_experience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        .title_path {
+            margin: 0;
+            color: rgba(var(--primaryColor), 1.0);
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .title_experience {
+            margin: 0;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--textSecondaryButton);
+        }
+    }
 }
