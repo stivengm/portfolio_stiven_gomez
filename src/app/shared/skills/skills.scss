@@ -1,7 +1,24 @@
 .content_skills {
     display: flex;
     flex-direction: column;
-
+    margin: 120px 5% 120px 5%;
+    gap: 48px;
+    .header_stack {
+        .title_capacity {
+            margin: 0;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+            color: rgba(var(--primaryColor), 1.0);
+        }
+        .title_stack {
+            margin: 0;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 700;
+            color: rgba(var(--whiteColor), 1.0);
+        }
+    }
     .section_stack {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -9,6 +26,18 @@
         .item_stack {
             background-color: rgba(var(--backgroundContact), .4);
             border-radius: 16px;
+            padding: 24px;
+            border-top: 4px solid;
+            border-left: 1px solid;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+
+            .title_stack_item {
+                font-size: 30px;
+                font-weight: 600;
+                margin: 0;
+                color: var(--textSecondaryButton);
+            }
         }
     }
 }
